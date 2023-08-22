@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: floralwhite;
+
+  color: rgb(1, 4, 6);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #ffffff;
+  margin-top: 0px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(2, 8, 8);
+  font-size: 19px;
+}
+nav ul li a:hover {
+  color: rgb(76, 17, 240);
+}
+.left {
+  font-size: 6.5mm;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 6px 0;
+}
+.firstSection>>div {
+  width: 31%;
+  margin-right: 60px;
+}
+.leftSection {
+  /* background-color: brown; */
+  font-size: 2.8rem;
+  margin: 112px 0;
+}
+.rightSection {
+  margin: 20px;
+}
+#element {
+  color: rgb(6, 15, 15);
+  font-size: large;
+}
+.rightSection img {
+  border: 1px;
+  border-radius: 181px;
+}
+.fa-linkedin-square:hover {
+  color: crimson;
+}
+.fa-github-square:hover {
+  color: crimson;
+}
+.btn1 {
+  background-color: rgb(238, 238, 238);
+  padding: 1rem;
+  border-radius: 42px;
+  border: 1px solid black;
+}
+.btn1:hover {
+  background-color: rgb(39, 37, 37);
+  cursor: pointer;
+}
+.btt:hover {
+  color: white;
+}
+.secondSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 46px 0;
+  margin-right: 198px;
+}
+
+.left_part {
+  border-radius: 20px;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  flex-direction: row;
+  margin-left: -400px;
+}
+.foursection {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 53px;
+}
+/* .social:hover{font-size: 10px;} */
+
+.gitbtn {
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  font-size: 20px;
+}
+.contact_details {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  border: 1px solid green;
+  box-sizing: border-box;
+  height: 56px;
+  width: 445px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 501px;
+  border-radius: 10px;
+  padding: 7px;
+}
+.one_contact:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #6f7676;
+}
+.header {
+  padding: 10px 16px;
+  background: seashell;
+  color: #060303;
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: -11px;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.skill1_Right {
+  /* display: flex; */
+  margin-left: 100px;
+  /* justify-content: space-around; */
+}
+.skill1_Left {
+  margin-right: 200px;
+}
+.thirdsection {
+  justify-content: space-around;
+  display: flex;
+  margin-left: 70px;
+}
+.skill {
+  font-size: 60px;
+  text-align: center;
+}
